@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.ed47129c.css",
+    "main.js": "/react-gh-pages/static/js/main.49f2fc2a.js",
+    "static/js/453.bbad0eca.chunk.js": "/react-gh-pages/static/js/453.bbad0eca.chunk.js",
+    "static/media/drlpres.pdf": "/react-gh-pages/static/media/drlpres.d1809d720263fabb45e9.pdf",
+    "static/media/dotted_background.png": "/react-gh-pages/static/media/dotted_background.70968bcbc00e2ff84653.png",
+    "static/media/pictureofme.png": "/react-gh-pages/static/media/pictureofme.302ef648233388412764.png",
+    "static/media/taskMatchPresentation.pdf": "/react-gh-pages/static/media/taskMatchPresentation.228992cd5f40cfbf6c56.pdf",
+    "static/media/color-sharp.png": "/react-gh-pages/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/resume-picture.png": "/react-gh-pages/static/media/resume-picture.afd4178cf9d44ddae6f9.png",
+    "static/media/software_development.png": "/react-gh-pages/static/media/software_development.dfdb9c9c893ded45f889.png",
+    "static/media/Pranav_Kasibhatla_Resume.pdf": "/react-gh-pages/static/media/Pranav_Kasibhatla_Resume.6fb81ad04ac25acc899f.pdf",
+    "static/media/banner-bg.png": "/react-gh-pages/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/ekal-logo.png": "/react-gh-pages/static/media/ekal-logo.5a55f33427e278131270.png",
+    "static/media/drl-logo.png": "/react-gh-pages/static/media/drl-logo.07ac76f71bdf5667c022.png",
+    "static/media/CentraNo2-Bold.ttf": "/react-gh-pages/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/react-gh-pages/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/react-gh-pages/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/task-match.png": "/react-gh-pages/static/media/task-match.705e4094f4fcef3d399b.png",
+    "static/media/pkLogo.png": "/react-gh-pages/static/media/pkLogo.ce4bbac95b3c84488d0e.png",
+    "static/media/revicons.eot": "/react-gh-pages/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/react-gh-pages/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/react-gh-pages/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/react-gh-pages/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/react-gh-pages/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/react-gh-pages/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/nav-icon3.svg": "/react-gh-pages/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/nav-icon1.svg": "/react-gh-pages/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/react-gh-pages/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.ed47129c.css.map": "/react-gh-pages/static/css/main.ed47129c.css.map",
+    "main.49f2fc2a.js.map": "/react-gh-pages/static/js/main.49f2fc2a.js.map",
+    "453.bbad0eca.chunk.js.map": "/react-gh-pages/static/js/453.bbad0eca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed47129c.css",
+    "static/js/main.49f2fc2a.js"
+  ]
+}
