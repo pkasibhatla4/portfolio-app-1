@@ -13,19 +13,6 @@ export const NavBar = () => {
     const [ setScrolled] = useState(false);
     let lastScrolly = window.scrollY;
 
-    useEffect(() => {
-        const onScroll = () => {
-            if (window.scrollY > lastScrolly) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
-        }
-
-        window.addEventListener("scroll", onScroll);
-
-        return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
