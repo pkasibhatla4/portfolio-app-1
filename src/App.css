@@ -98,8 +98,11 @@ nav.navbar {
 
 
 }
-.pkLogo{
-  height:100px;
+.pk-logo{
+  width: 150px;
+  height:auto;
+  margin-bottom:3px;
+
 }
 nav.navbar:hover {
   padding: 0px 0;

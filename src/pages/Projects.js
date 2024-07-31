@@ -6,7 +6,7 @@ import presentationIcon from '../assets/presentation-icon.png';
 import pdfPresentation from '../assets/drlpres.pdf';
 import taskMatchPresentation from '../assets/taskMatchPresentation.pdf'
 import github from '../assets/github-mark.png';
-import pkLogo from '../assets/pkLogo.png';
+
 
 
 

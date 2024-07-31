@@ -1,7 +1,7 @@
 import{ Navbar, Container, Nav} from 'react-bootstrap';
 import {useState, useEffect} from 'react';
 import logo from '../assets/img/logo.svg';
-
+import pklogo from '../assets/pk-logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -21,7 +21,8 @@ export const NavBar = () => {
         <Navbar expand="lg" className="NavBar-body">
             <Container>
                 <Navbar.Brand as={Link} to="/">
-                    <img src={logo} className = "pk-logo" alt="logo"/>
+                    <img className = "pk-logo" src={pklogo}></img>
+                    
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toogler-icon"></span>
