@@ -206,8 +206,11 @@ span.navbar-text {
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: rgb(0, 132, 255);
-  
+  align-items:center;
   height:20px;
+}
+.navbar-toggler-icon{
+  align-items:center;
 }
 
 .vvd{
@@ -750,6 +753,118 @@ nav.navbar .navbar-toggler:focus {
   padding-bottom:2rem;
   padding-left:2rem;
 }
+
+
+@media screen and (max-width:500px){
+  
+  .AI-row{
+    margin-top:5rem;
+  }
+  .Task-Match-row{
+    margin-top:5rem;
+  }
+  .Portfolio-row{
+    margin-top:5rem;
+  }
+  .AI-project{
+    padding-top:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  .Task-Match{
+    padding-top:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  .portfolio-app{
+    padding-top:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  .DRL-Logo{
+    display:none;
+  }
+  .Task-Match-Logo{
+    display:none;
+  }
+  .portfolio-app-Logo{
+    display:none;
+  }
+  .presentation-icon{
+    display:none;
+  }
+  .github-icon{
+    display:none;
+  }
+  .AI-project h1{
+    font-size:30px;
+  }
+  .Task-Match h1{
+    font-size:30px;
+  }
+  .portfolio-app h1{
+    font-size:30px;
+  }
+  .AI-project p{
+    font-size:15px;
+  }
+  .Task-Match p{
+    font-size:15px;
+  }
+  .portfolio-app p{
+    font-size:15px;
+  }
+  .AI-project button{
+    font-size:15px;
+  }
+  .Task-Match button{
+    font-size:15px;
+  }
+  .portfolio-app button{
+    font-size:15px;
+  }
+  .AI-project img{
+    width:50%;
+  }
+  .Task-Match img{
+    width:50%;
+  }
+  .portfolio-app img{
+    width:50%;
+  }
+  .AI-project img{
+    width:50%;
+  }
+  .Task-Match img{
+    width:50%;
+  }
+  .portfolio-app img{
+    width:50%;
+  }
+  .AI-project img{
+    width:50%;
+  }
+  .Task-Match img{
+    width:50%;
+  }
+  .portfolio-app img{
+    width:50%;
+  }
+  .AI-project img{
+    width:50%;
+  }
+  .Task-Match img{
+    width:50%;
+  }
+  .portfolio-app img{
+    width:50%;
+  }
+  .AI-project img{
+    width:50%;
+  }
+
+}
+
 
 
 /*resume page styling*/

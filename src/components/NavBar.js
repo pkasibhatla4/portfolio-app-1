@@ -6,6 +6,8 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import { Link } from 'react-router-dom';
 import github from '../assets/github-mark-white.png';
+
+import togleicon from '../assets/Crop-Selection--Streamline-Core.svg';
 export const NavBar = () => {
 
     const [activeLink, setActiveLink] = useState('home');
@@ -22,7 +24,9 @@ export const NavBar = () => {
                     
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
-                    <span className="navbar-toogler-icon"></span>
+                    <span className="navbar-toogler-icon">
+                        <img src={togleicon} alt="togleicon"/>
+                    </span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
