@@ -1,11 +1,10 @@
-import example_image from '../assets/img/banner-bg.png';
+
 import {Container, Row, Col} from 'react-bootstrap';
 import {ArrowDownCircle} from 'react-bootstrap-icons'
-import useIntersectionObserver from '../useIntersectionObserver.js';
-import React, { useRef, useState } from 'react';
-import {Link}from "react-router-dom";
-import software_dev from '../assets/img/software_development.png'
-import projectimage from '../assets/Collaborations-Idea--Streamline-Core.svg';
+
+import React from 'react';
+
+
 
 
 export const ApproachPage = () => {

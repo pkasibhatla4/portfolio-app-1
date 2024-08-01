@@ -40,13 +40,13 @@ export const Projects = () =>{
                             <br/>
                             <p>Python, Tensorflow, Stable-baseline, gym, Torch, Gast.</p>
                             <a href = {pdfPresentation}>
-                                <img src = {presentationIcon} className="presentation-icon"/>
+                                <img src = {presentationIcon} className="presentation-icon" alt="presicon"/>
                             </a>
                             <a href = "https://github.com/pkasibhatla4/DRL-Trading-Bot/tree/main/Trading-Bot-RL-main">
-                                <img src = {github} className="github-icon"/>
+                                <img src = {github} className="github-icon" alt="githubicon"/>
                             </a>
                         </Col>
-                        <img src={DrlLogo} className="DRL-Logo"/>
+                        <img src={DrlLogo} className="DRL-Logo" alt="drllogo"/>
                     </Row>
                     <Row className="Task-Match-row">
                         <Col xs={12} md={6} xl={7} className="Task-Match">
@@ -59,14 +59,14 @@ export const Projects = () =>{
                             <p>DJango, React.js, Python, JavaScript, Figma, Postman. </p>
 
                             <a href = {taskMatchPresentation}>
-                                <img src = {presentationIcon} className="presentation-icon"/>
+                                <img src = {presentationIcon} className="presentation-icon" alt="presicon"/>
                             </a>
                             <a href = "https://github.com/pkasibhatla4/task-match">
-                                <img src = {github} className="github-icon"/>
+                                <img src = {github} className="github-icon" alt="giticon"/>
                             </a>
                         </Col>
                         <Col xs={12} md={6} xl={5}>
-                            <img src={TaskMatchLogo} className="Task-Match-Logo"/>
+                            <img src={TaskMatchLogo} className="Task-Match-Logo" alt="taskmatchlogo"/>
                         </Col>
                         
                     </Row>
@@ -80,7 +80,7 @@ export const Projects = () =>{
                             <br/>
                             <p>React, React-Bootstrap, JavaScript, CSS. </p>
                             <a href = "https://github.com/pkasibhatla4/portfolio-app-1">
-                                <img src = {github} className="github-icon"/>
+                                <img src = {github} className="github-icon" alt="giticon"/>
                             </a>
                         </Col>
                         

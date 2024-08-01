@@ -2,9 +2,6 @@ import { Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {Row, Col } from "react-bootstrap";
-import meter1 from '../assets/img/meter1.svg';  
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
 import colorSharp from '../assets/img/color-sharp.png';
 
 import frontend from '../assets/Code-Monitor-1--Streamline-Flex.png';
@@ -44,7 +41,7 @@ export const Skills = () => {
                         <br/>
                         <Carousel responsive = {responsive} infinite = {true} className ="Skills-slider">
                             <div className="item">
-                                <img src={frontend} className="icons"/>
+                                <img src={frontend} className="icons" alt="icon"/>
                                 <h3>Front-End </h3>
                                 <p>Technical Languages: Javascript, HTML, CSS, React, React-Native</p>
                                 <br/>
@@ -52,7 +49,7 @@ export const Skills = () => {
                                 
                             </div>
                             <div className="item">
-                                <img src={backend} className="icons"/>
+                                <img src={backend} className="icons" alt="icon"/>
                                 <h3>Back-End </h3>
                                 <p>Technical Languages: Python, Java, SQL, Django, Postman </p>
                                 <br/>
@@ -60,7 +57,7 @@ export const Skills = () => {
                                 
                             </div>
                             <div className="item">  
-                              <img src={artint} className="icons"/>
+                              <img src={artint} className="icons" alt="icon"/>
                                 <h3>AI Architect</h3>
                                 <p> AI Tools: Tensorflow, OpenAI Gym, Pytorch </p>
                                 <br/>
@@ -68,7 +65,7 @@ export const Skills = () => {
                                 
                             </div>
                             <div className="item">
-                              <img src={leadership} className="icons"/>
+                              <img src={leadership} className="icons" alt="icon"/>
                                 <h3>Leadership</h3>
                                 <p>Leadership Skills: Prioritization, Understanding team dynamics, Approachable Character, Ability to take Initiative</p>
                                 <br/>
@@ -84,7 +81,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className = "background-image-left" src ={colorSharp}/>
+            <img className = "background-image-left" src ={colorSharp} alt="backgroundimgs"/>
         </section>
       )
 }

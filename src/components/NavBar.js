@@ -1,6 +1,5 @@
 import{ Navbar, Container, Nav} from 'react-bootstrap';
-import {useState, useEffect} from 'react';
-import logo from '../assets/img/logo.svg';
+import {useState} from 'react';
 import pklogo from '../assets/pk-logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 
@@ -10,8 +9,6 @@ import github from '../assets/github-mark-white.png';
 export const NavBar = () => {
 
     const [activeLink, setActiveLink] = useState('home');
-    const [ setScrolled] = useState(false);
-    let lastScrolly = window.scrollY;
 
 
     const onUpdateActiveLink = (value) => {
@@ -21,7 +18,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className="NavBar-body">
             <Container>
                 <Navbar.Brand as={Link} to="/">
-                    <img className = "pk-logo" src={pklogo}></img>
+                    <img className = "pk-logo" src={pklogo} alt="pklogo"></img>
                     
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">

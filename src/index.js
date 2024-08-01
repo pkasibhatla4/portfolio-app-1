@@ -1,10 +1,8 @@
 import React from 'react';
-import { StrictMode } from 'react';
 import {createRoot} from 'react-dom/client';
 import './index.css';
-import HomePage from './pages/HomePage.js';
 import reportWebVitals from './reportWebVitals';
-import SoftwareDevelopment from './pages/ApproachPage.js';
+
 import App from './App.js';
 import {BrowserRouter} from 'react-router-dom';
 

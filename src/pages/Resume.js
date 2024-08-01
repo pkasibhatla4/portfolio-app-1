@@ -51,7 +51,6 @@ export const Resume = () => {
                     <div className="resume-textbox">
                         <h3>Project</h3>
                         <small> Dec 2023- May 2024</small>
-                        <h2></h2>
                         <h4>Taskmatch</h4>
                         <p>
                             <br/>
@@ -62,7 +61,7 @@ export const Resume = () => {
                 </div>
                 <div className = "resume-container right-container">
                     
-                    <img src={ekalLogo} className="ekal-logo" />
+                    <img src={ekalLogo} className="ekal-logo" alt="ekallogo" />
                     <br/>
                     <div className="resume-textbox">
                         <small> June 2023- Aug 2023</small>
@@ -89,7 +88,6 @@ export const Resume = () => {
                     <div className="resume-textbox">
                         <h3>Project</h3>
                         <small> Aug 2022- Dec 2022</small>
-                        <h2></h2>
                         <h4>Stock trading bot </h4>
                         <p>
                             <br/>

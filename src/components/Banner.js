@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import { ArrowDownCircle, ArrowRightCircle } from 'react-bootstrap-icons';
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from '../assets/pictureofme.png';
 import { useState, useEffect } from 'react';
 
@@ -11,15 +11,6 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const period = 1000;
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta);
-
-        return () => { clearInterval(ticker) };
-    }, [text, delta]);
-
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
@@ -40,6 +31,14 @@ export const Banner = () => {
             setDelta(200);
         }
     };
+    useEffect(() => {
+        let ticker = setInterval(() => {
+            tick();
+        }, delta);
+        return () => { clearInterval(ticker) };
+    }, [text, delta]);
+
+   
 
 
     return (
@@ -61,9 +60,6 @@ export const Banner = () => {
                     </Col>
 
                 </Row>
-                <a>
-                    
-                </a>
                 <h6 className="Scroll-text">Theres More! ↓ </h6>
             </Container>
             

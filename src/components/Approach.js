@@ -1,8 +1,8 @@
-import {Container,Row,Col,Nav} from 'react-bootstrap';
+import {Container,Row,Col} from 'react-bootstrap';
 import {Link}from "react-router-dom";
 import software_dev from '../assets/img/software_development.png'
 import infoIcon from '../assets/fun-fact.png';
-import {useState, useEffect} from 'react';
+
 
 
 
@@ -23,7 +23,7 @@ export const Approach = () => {
                 <Row className="Approach-row">
                     
                     <Col xs={12} md={6} xl={5} className="work-image">
-                        <img src={software_dev} className="software-development"/>
+                        <img src={software_dev} className="software-development" alt="softwaredev"/>
                     </Col>
                     <Col xs={12} md={6} xl={7} className="r2">
                         <h1 className="Approach-title">Lets Work Together.</h1>
