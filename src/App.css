@@ -608,10 +608,8 @@ nav.navbar .navbar-toggler:focus {
 
 
 
-.Approach-Page{
-  padding:1rem 1rem;
-  margin-top:-8rem;
-}
+
+
 
 .AP-title{
   margin:1rem;
@@ -619,7 +617,7 @@ nav.navbar .navbar-toggler:focus {
 }
 
 .Approach-Page-Title{
-  font-size:67px;
+  font-size:64px;
   margin-bottom:2rem;
   
 }
@@ -1005,12 +1003,21 @@ nav.navbar .navbar-toggler:focus {
   animation:reveal linear both;
   animation-timeline:view();
   animation-range:cover 0% cover 50%;
+  margin-top:-8rem;
 
 
 }
+.AP-title p{
+  font-size:18px;
 
+}
+
+.vivekananda-container{
+  margin-top:2rem;
+  margin-bottom:5rem;
+}
 .title-paragraph{
-  margin-top:1rem;
+  margin-top:5rem;
   margin-bottom:15rem;
 }
 

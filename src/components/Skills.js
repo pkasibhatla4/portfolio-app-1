@@ -53,13 +53,13 @@ export const Skills = () => {
                                 <h3>Back-End </h3>
                                 <p>Technical Languages: Python, Java, SQL, Django, Postman </p>
                                 <br/>
-                                <p> My out of the box crtiical thinking skills along with extensive experience in Python, Java, Django and SQL enable me to develop simplye and efficient back end systems.  </p>
+                                <p> My out of the box crtiical thinking skills along with extensive experience in Python, Java, Django and SQL enable me to develop simple and efficient back end systems.  </p>
                                 
                             </div>
                             <div className="item">  
                               <img src={artint} className="icons" alt="icon"/>
                                 <h3>AI Architect</h3>
-                                <p> AI Tools: Tensorflow, OpenAI Gym, Pytorch </p>
+                                <p> AI Tools: Tensorflow, OpenAI Gym, Pytorch, HuggingFace </p>
                                 <br/>
                                 <p> I have a strong foundation of AI, Deep Learning and computer visions and its concepts through coursework, Artificial Intelligence Society and personal projects.  </p>
                                 
@@ -69,7 +69,7 @@ export const Skills = () => {
                                 <h3>Leadership</h3>
                                 <p>Leadership Skills: Prioritization, Understanding team dynamics, Approachable Character, Ability to take Initiative</p>
                                 <br/>
-                                <p> My experiences in HSS have taught me the importance of leadership and team building?</p>
+                                <p>My advanced people skills enhance my understanding of team dynamics, while my strong project vision and proactive initiative enable me to lead with confidence and effectiveness.</p>
                                 
                             </div>
 

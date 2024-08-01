@@ -50,8 +50,8 @@ export const Banner = () => {
                         <h1>{'Hi, I\'m Pranav: '} <span className="wrap">{text}</span></h1>
                         <p>
                                 I design and develop creative, efficient
-                                and detail-oriented Applications and Products.
-                                From working on simple real estate webscraping to building models using Deep Reinforcement Learning (DRL), my passion for perfection drives me to crafting creative solutions 
+                                and detail-oriented applications and products.
+                                From working on simple real estate webscraping to building models using Deep Reinforcement Learning (DRL), my passion for big ideas drives me to crafting creative solutions 
                                     and pushing the barriers of technology. </p>
                         <a className="connect_arrow" href= 'https://www.linkedin.com/in/pranavkkasibhatla/'>Let's Connect <ArrowRightCircle size={25} /></ a>
                     </Col>

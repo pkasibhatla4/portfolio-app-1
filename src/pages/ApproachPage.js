@@ -15,14 +15,20 @@ export const ApproachPage = () => {
                 <h1 className="Approach-Page-Title">My Approach.</h1>
                 <br/>
                 <h3> "Arise, awake and stop not till the goal is reached."</h3>
-                <p>- Swami Vivekananda</p>
+                <div class="vivekananda-container" >
+                    <h6>- Swami Vivekananda</h6>
 
-                <p className="title-paragraph">I approach everything like a video game. 
-                            Every level, its own set of challenges, 
-
-                            its own lessons to learn, its own rewards to reap. 
-                            My most distinct characteristic is my relentlessness and dedication to
-                            accomplishing my goals. From a young age,  </p>
+                </div>
+                
+                <p className="title-paragraph">
+                    I approach everything like a video game, challenges at every level, 
+                    each offering its own lessons and rewards.
+                    My relentless dedication to achieving my goals defines who I am, 
+                    and I view challenges as opportunities for growth and evolution.
+                     True to my middle name, Kushal, which means "happy,"
+                      I find joy in making others smile and engaging in meaningful conversations, 
+                      believing that every person I meet contributes to the journey of life.
+                 </p>
                 <p className="Approach-Scroll">There's More! <ArrowDownCircle size={25} /></p>
             </div>
 
