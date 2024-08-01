@@ -1,7 +1,6 @@
 {
   "name": "portfolio-app-1",
   "version": "0.1.0",
-  "homepage": "https://pkasibhatla4.github.io/portfolio-app-1",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
