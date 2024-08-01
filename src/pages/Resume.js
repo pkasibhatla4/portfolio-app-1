@@ -40,7 +40,7 @@ export const Resume = () => {
                         <h4>Cognizant</h4>
                         <p>
                             <br/>
-                            Developed a powerful image classification model with PyTorch, cutting production processing time by 45%. Enhanced in-house models by integrating architectures like VGG and AlexNet. Improved model performance and efficiency by applying prompt tuning, in-context learning, and parameter-efficient fine-tuning techniques.
+                            Developed an image classification model with PyTorch, reducing processing time by 45% and improving efficiency through the integration of VGG, AlexNet, and advanced tuning techniques.
                         </p>
 
                         <span className="left-container-arrow"></span>
@@ -69,15 +69,7 @@ export const Resume = () => {
                         <h4>Ekal Vidyalaya</h4>
                         <br/>
                         <p>
-                            Generated 10-year linear regression models to forecast nationwide donor engagement for 8 USA chapters
-                            <br/>
-                            • Developed API to automatically consolidate credit card and check donations into DonorPerfect (CRM Database)
-                            <br/>
-                            • Programmed matching software to streamline transaction process with CRM database, reducing processing times by 30%
-                            <br/>
-                            • Extracted handwritten text from thousands of checks using PyTesseract AI to completely automate manual entry process
-                            <br/>
-                            • Overlooked tech systems and donation collection for various fundraising events raising $500,000 for schools in rural India
+                        Generated 10-year linear regression models to forecast donor engagement for 8 USA chapters and developed an API to automate donation consolidation into DonorPerfect, streamlining CRM processes. Additionally, I programmed matching software that reduced transaction processing times by 30% and automated manual entry using PyTesseract AI. My oversight of tech systems and donation collection contributed to raising $500,000 for schools in rural India.
                         </p>
                         <span className="right-container-arrow"></span>
                     </div>               
@@ -104,12 +96,14 @@ export const Resume = () => {
                         <h4>Artificial Intelligence Society (AIS)</h4>
                         <br/>
                         <p>
-                            • Implemented policy based deep reinforcement learning model to forecast stock market trends resulting with a ROI of 125% 
-                            <br/>
-                            • Deployed the application to the cloud using AWS Sagemaker, reducing model runtime by 55%
-                            <br/>
-                            • Presented project to 50 AIS members and 3 AWS representatives to raise interests in stocks and showcase AI
-                            <br/>
+                        Implemented a policy-based deep reinforcement learning model to forecast stock market trends, achieving a 125% ROI. Deployed the application to the cloud using AWS SageMaker, reducing model runtime by 55%. Presented the project to 50 AIS members and 3 AWS representatives to generate interest in stocks and demonstrate AI capabilities.
+
+
+
+
+
+
+
                         </p>
                         <span className="left-container-arrow"></span>
                     </div>               
@@ -127,13 +121,7 @@ export const Resume = () => {
                         
                         <br/>
                         <p>
-                            • Utilized BS4 python library to extract data from Zillow and tires use to generate 2 monthly reports
-                            <br/>
-                            • Programmed automated bot to bypass CAPTCHA and other human verification services to ensure seamless data extraction
-                            <br/>
-                            • Extracted data for extended time periods to analyze and generate real time real estate valuation trends
-                            <br/>
-                            • Wrote an advanced algorithm which dynamically suggests pricing strategies based on market fluctuations for Tires USA
+                            Utilized the BS4 Python library to extract data from Zillow and Tires USA, generating monthly reports and real-time real estate valuation trends. Programmed an automated bot to bypass CAPTCHA and human verification, ensuring seamless data extraction. Additionally, developed an advanced algorithm that dynamically suggests pricing strategies based on market fluctuations for Tires USA.
                         </p>
                         <span className="right-container-arrow"></span>
                     </div>               
