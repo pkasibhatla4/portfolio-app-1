@@ -653,7 +653,6 @@ nav.navbar .navbar-toggler:focus {
 }
 
 
-
 /*Project page Styling*/
 
 .Project-Page{
@@ -1075,7 +1074,20 @@ nav.navbar .navbar-toggler:focus {
 
 @media screen and (max-width:500px){
   
-  
+  .resume-heading{
+    right:2rem;
+    padding:0rem;
+    margin-left:0rem;
+    margin-right:5rem;
+
+  }
+  .resume-hero h1{
+    margin-right:4rem;
+    font-size:40px;
+  }
+  .resume-hero p{
+    font-size:12px;
+  }
   .resume-col{
     margin-top:5rem;
 
@@ -1176,4 +1188,10 @@ nav.navbar .navbar-toggler:focus {
   animation-timeline:view();
   animation-range:cover 0% cover 50%;
   margin-bottom:15rem;
+}
+
+@media screen and (max-width:500px){
+  .Tech-approach{
+    margin:0;
+  }
 }

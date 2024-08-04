@@ -10,6 +10,7 @@ import github from '../assets/github-mark.png';
 
 
 
+
 export const Projects = () =>{
     
     const [showDiv, setShowDiv] = useState(false);
@@ -25,6 +26,7 @@ export const Projects = () =>{
                 <h1>Projects</h1>
                 <p>Here are some of the projects I've worked on!</p>
                 <br/>
+                
             </div>
 
             <section className="Project-Row">
