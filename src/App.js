@@ -107,7 +107,9 @@ export const App = () =>{
                     <Route path = "/resume" element={<Resume/>}/>
                     <Route path ="/drones" element={<Drones/>}/>
                 </Routes>
+
             </div>
+            <Drones/>
         </>
     )
 }
