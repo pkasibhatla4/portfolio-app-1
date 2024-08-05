@@ -109,7 +109,6 @@ export const App = () =>{
                 </Routes>
 
             </div>
-            <Drones/>
         </>
     )
 }

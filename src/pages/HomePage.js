@@ -5,6 +5,7 @@ import{Skills} from '../components/Skills';
 import {Approach} from '../components/Approach';
 
 import {ApproachPage} from '../pages/ApproachPage';
+import {Drones} from '../pages/Drones.js';
 
 
 
@@ -17,7 +18,7 @@ function HomePage() {
         <ApproachPage/>
         
        
-        
+        <Drones/>
         
         
       </div>
