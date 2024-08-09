@@ -1195,3 +1195,9 @@ nav.navbar .navbar-toggler:focus {
     margin:0;
   }
 }
+
+/* Contact Page Styling*/
+
+.contact-heading{
+  margin-top:15rem;
+}

@@ -46,9 +46,11 @@ export const NavBar = () => {
                         <Nav.Link as={Link} to="/projects" 
                             className = {activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
                             onClick = {() => onUpdateActiveLink('projects')}>Projects
+                        </Nav.Link>
+                        <Nav.Link as={Link} to="/contact" 
+                            className = {activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'}
+                            onClick = {() => onUpdateActiveLink('contact')}>Contact
                         </Nav.Link> 
-
-
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icons">
@@ -57,7 +59,7 @@ export const NavBar = () => {
                             <a href="https://www.instagram.com/pkasibhatla4/"><img src={navIcon3} alt="insta-icon"/></a>
                         </div>
                     </span>
-
+                    
                     <button className="vvd"  onClick={() => window.location.href='mailto:pkasibhatla4@gmail.com'}> 
                     <span>Contact me!</span></button>
                 </Navbar.Collapse>

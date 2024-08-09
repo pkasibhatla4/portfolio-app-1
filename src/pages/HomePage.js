@@ -16,11 +16,6 @@ function HomePage() {
         <Skills/>
         <Approach />
         <ApproachPage/>
-        
-       
-        <Drones/>
-        
-        
       </div>
     
   );
