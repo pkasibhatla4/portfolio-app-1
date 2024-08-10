@@ -53,7 +53,7 @@ export const Skills = () => {
                                 <h3>Back-End </h3>
                                 <p>Technical Languages: Python, Java, SQL, Django, Postman </p>
                                 <br/>
-                                <p> My out of the box crtiical thinking skills along with extensive experience in Python, Java, Django and SQL enable me to develop simple and efficient back end systems.  </p>
+                                <p> My out of the box critical thinking skills along with extensive experience in Python, Java, Django and SQL enable me to develop simple and efficient back end systems.  </p>
                                 
                             </div>
                             <div className="item">  
